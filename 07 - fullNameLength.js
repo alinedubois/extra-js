@@ -3,7 +3,9 @@
 //   counting with the extra space that separates
 //   both names
 
-const fullNameLength = () => {
+const fullNameLength = (name, surname) => {
+
+    return `${name} ${surname}`.length;
   
 };
 
