@@ -3,8 +3,10 @@
 // 1.75
 // which is: 0.25+0.25+0.25+0.25+0.25+0.25+0.25
 
-const add25Cents = () => {
+const add25Cents = (number) => {
+    const coin = 0.25;
 
+    return number * coin;
 }
 
 console.log(add25Cents(7))

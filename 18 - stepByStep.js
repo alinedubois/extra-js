@@ -2,8 +2,13 @@
 // i.e: stepByStep(5)
 // "012345"
 
-const stepByStep = () => {
 
+const stepByStep = (number) => {
+    let str = '';
+    for (let i=0; i<=number; i++){
+      str = str + i;
+    }
+return str
 }
 
 
